@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: dimgrey;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin: 30px;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+input, select, button, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fd1;
+}
+
+button.oculto {
+  display: none;
+}
+
+pre {
+  background: #222;
+  color: #0f0;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+td button {
+  margin-right: 5px;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+}
+
+.btnEditar {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btnEditar:hover {
+  background-color: #e0a800;
+}
+
+.btnExcluir {
+  background-color: #dc3545;
+}
+
+.btnExcluir:hover {
+  background-color: #b02a37;
+}
+
+h2{
+  margin: 25px;
+  font-family: sans-serif;
+  font-size: 40px;
+}
